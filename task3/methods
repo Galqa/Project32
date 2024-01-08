@@ -1,0 +1,74 @@
+Завдання 3
+
+З 5 завдання першого уроку, яке Ви обрали, визначити метод, який робить перетворення розробленого XML-документа в документ, зазначений у кожному завданні.
+
+
+1. JAXB - метод дозволяє зв’язувати XML-схему з Java-класами і створювати об’єкти Java з XML-документів.
+2. XPath - це метод дозволяє звертатися до елементів XML-документа за допомогою шляхів, що вказують на їхнє місцезнаходження в документі. XPath можна використовувати для пошуку, фільтрації та вилучення даних з XML-документів.
+3. DOM - метод дозволяє створювати дерево об’єктів, яке представляє структуру XML-документа. Це дерево можна змінювати, додавати нові елементи, видаляти і т.д. Після змін дерева можна зберегти його у вигляді XML-документа.
+4. StAX - метод є ефективним з точки зору використання пам'яті, тому що він використовує потоковий підхід до обробки XML-документів. Він читає XML-документ по одному елементу за раз, а не завантажує весь документ в пам'ять одразу.
+5. SAX - метод підходить для великих або простих XML-документів, які потребують тільки одноразового читання або фільтрації. Але SAX має недолік у тому, що він не дозволяє змінювати документ, не зберігає інформацію про структуру документа.
+
+
+<Candy>
+    <Name>Чупа-чупс</Name>
+    <Energy>50</Energy>
+    <Type>
+        <CandyType>Карамель</CandyType>
+    </Type>
+    <Ingredients>
+        <Water>100</Water>
+        <Sugar>200</Sugar>
+        <Fructose>50</Fructose>
+        <Vanillin>1</Vanillin>
+    </Ingredients>
+    <Value>
+        <Protein>0</Protein>
+        <Fat>0</Fat>
+        <Carbohydrate>75</Carbohydrate>
+    </Value>
+    <Production>Сяйво</Production>
+    <Name>Чайка</Name>
+    <Energy>500</Energy>
+    <Type>
+        <CandyType>Шоколадна</CandyType>
+    </Type>
+    <Ingredients>
+        <Water>10</Water>
+        <Sugar>150</Sugar>
+        <Fructose>0</Fructose>
+        <Vanillin>12</Vanillin>
+    </Ingredients>
+    <Value>
+        <Protein>10</Protein>
+        <Fat>25</Fat>
+        <Carbohydrate>10</Carbohydrate>
+    </Value>
+    <Production>Арія</Production>
+    <Name>Желейна</Name>
+    <Energy>100</Energy>
+    <Type>
+        <CandyType>Фруктова</CandyType>
+    </Type>
+    <Ingredients>
+        <Water>50</Water>
+        <Sugar>100</Sugar>
+        <Fructose>50</Fructose>
+        <Vanillin>1</Vanillin>
+    </Ingredients>
+    <Value>
+        <Protein>5</Protein>
+        <Fat>0</Fat>
+        <Carbohydrate>65</Carbohydrate>
+    </Value>
+    <Production>Срібло</Production>
+</Candy>
+
+
+
+
+
+
+
+
+
